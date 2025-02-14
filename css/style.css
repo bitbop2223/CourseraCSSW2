@@ -1,0 +1,93 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 115%;
+}
+
+header{
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+}
+
+/* Skip to main content link  */
+a.skip-to-main-content{
+    position:static;
+    
+}
+
+ul{
+    /* position:static; */
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    list-style: none;
+}
+
+main{
+    background-color: yellow;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+h1{
+    font-family: 'Brush Script MT', 'Lucida Calligraphy', 'Monotype Corsiva';
+    color: #06008B;
+    text-align: center;
+}
+
+
+footer{
+    background-color: lightgray;
+}
+
+nav{
+    display: inline-block;
+    width: 80%;
+}
+
+nav img{
+    width: 10%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+}
+
+.grid img{
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#ImgHeader{
+    max-width: 200px;
+    width: -webkit-fill-available;
+}
+
+.Neighborhood-Walk-img{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.Neighborhood-Walk-img img{
+    width: -webkit-fill-available;
+    max-width: 50%;
+}
+
+
+.Park-Img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
